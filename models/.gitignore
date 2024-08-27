@@ -1,0 +1,5 @@
+*.zip
+*.safetensors
+*.bin
+*.json
+!*.csv

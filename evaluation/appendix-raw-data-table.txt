@@ -1,0 +1,131 @@
+                 Model              Dataset  Target     Accuracy   F1   Recall Precision
+           CLIP-ViT-B/16 (cont.)      k78k  continent    0.9097  0.9096  0.9096   0.9100
+           CLIP-ViT-B/16 (cont.)      k78k    country    0.5019  0.1315  0.1702   0.1938
+           CLIP-ViT-B/16 (cont.)    im2gps  continent    0.7215  0.6338  0.6867   0.6159
+           CLIP-ViT-B/16 (cont.)    im2gps    country    0.5021  0.3481  0.4217   0.3333
+           CLIP-ViT-B/16 (cont.)  im2gps2k  continent    0.6105  0.5017  0.5242   0.5098
+           CLIP-ViT-B/16 (cont.)  im2gps2k    country    0.3055  0.1173  0.1796   0.1298
+           CLIP-ViT-B/16 (cont.)  im2gps3k  continent    0.6563  0.5187  0.5932   0.5097
+           CLIP-ViT-B/16 (cont.)  im2gps3k    country    0.3530  0.1694  0.2658   0.1894
+           CLIP-ViT-B/16 (cont.)    yfcc4k  continent    0.6133  0.4177  0.4509   0.4115
+           CLIP-ViT-B/16 (cont.)    yfcc4k    country    0.2848  0.1099  0.1897   0.1197
+           CLIP-ViT-B/16 (comb.)      k78k  continent    0.8058  0.8004  0.8058   0.8116
+           CLIP-ViT-B/16 (comb.)      k78k    country    0.6835  0.3769  0.4824   0.3857
+           CLIP-ViT-B/16 (comb.)    im2gps  continent    0.7173  0.6310  0.7130   0.6567
+           CLIP-ViT-B/16 (comb.)    im2gps    country    0.5696  0.3632  0.4543   0.3562
+           CLIP-ViT-B/16 (comb.)  im2gps2k  continent    0.5865  0.5051  0.5694   0.5425
+           CLIP-ViT-B/16 (comb.)  im2gps2k    country    0.3225  0.1438  0.2149   0.1483
+           CLIP-ViT-B/16 (comb.)  im2gps3k  continent    0.6373  0.4943  0.6182   0.5359
+           CLIP-ViT-B/16 (comb.)  im2gps3k    country    0.4064  0.2046  0.2850   0.2258
+           CLIP-ViT-B/16 (comb.)    yfcc4k  continent    0.5763  0.4002  0.4836   0.4056
+           CLIP-ViT-B/16 (comb.)    yfcc4k    country    0.3234  0.1379  0.2454   0.1379
+    CLIP-ViT-B/16 (cont.) + a.d.      k78k  continent    0.9184  0.9182  0.9183   0.9183
+    CLIP-ViT-B/16 (cont.) + a.d.      k78k    country    0.5308  0.1135  0.1456   0.1467
+    CLIP-ViT-B/16 (cont.) + a.d.    im2gps  continent    0.7468  0.6874  0.7336   0.6632
+    CLIP-ViT-B/16 (cont.) + a.d.    im2gps    country    0.4557  0.2464  0.3015   0.2619
+    CLIP-ViT-B/16 (cont.) + a.d.  im2gps2k  continent    0.6245  0.5162  0.5468   0.5100
+    CLIP-ViT-B/16 (cont.) + a.d.  im2gps2k    country    0.3255  0.0702  0.1051   0.0763
+    CLIP-ViT-B/16 (cont.) + a.d.  im2gps3k  continent    0.6720  0.5378  0.6195   0.5200
+    CLIP-ViT-B/16 (cont.) + a.d.  im2gps3k    country    0.3493  0.1191  0.1635   0.1497
+    CLIP-ViT-B/16 (cont.) + a.d.    yfcc4k  continent    0.6080  0.4064  0.4601   0.4003
+    CLIP-ViT-B/16 (cont.) + a.d.    yfcc4k    country    0.3228  0.0962  0.1656   0.0954
+    CLIP-ViT-B/16 (comb.) + a.d.      k78k  continent    0.7936  0.7818  0.7935   0.8144
+    CLIP-ViT-B/16 (comb.) + a.d.      k78k    country    0.7288  0.4300  0.5289   0.4282
+    CLIP-ViT-B/16 (comb.) + a.d.    im2gps  continent    0.6920  0.6205  0.7201   0.6489
+    CLIP-ViT-B/16 (comb.) + a.d.    im2gps    country    0.5527  0.4064  0.4783   0.4204
+    CLIP-ViT-B/16 (comb.) + a.d.  im2gps2k  continent    0.5875  0.4994  0.5554   0.5354
+    CLIP-ViT-B/16 (comb.) + a.d.  im2gps2k    country    0.3140  0.1433  0.2144   0.1551
+    CLIP-ViT-B/16 (comb.) + a.d.  im2gps3k  continent    0.6400  0.5010  0.6344   0.5350
+    CLIP-ViT-B/16 (comb.) + a.d.  im2gps3k    country    0.3901  0.1987  0.2974   0.2201
+    CLIP-ViT-B/16 (comb.) + a.d.    yfcc4k  continent    0.5578  0.4010  0.4687   0.4174
+    CLIP-ViT-B/16 (comb.) + a.d.    yfcc4k    country    0.3020  0.1332  0.2455   0.1507
+       CLIP-ViT-B/16 (cont.) zs.      k78k  continent    0.6893  0.6735  0.6893   0.7020
+       CLIP-ViT-B/16 (cont.) zs.      k78k    country    0.3756  0.1662  0.2488   0.2216
+       CLIP-ViT-B/16 (cont.) zs.    im2gps  continent    0.6498  0.5736  0.6583   0.6199
+       CLIP-ViT-B/16 (cont.) zs.    im2gps    country    0.6287  0.4163  0.5167   0.4158
+       CLIP-ViT-B/16 (cont.) zs.  im2gps2k  continent    0.5120  0.4601  0.5392   0.5356
+       CLIP-ViT-B/16 (cont.) zs.  im2gps2k    country    0.3735  0.1460  0.2383   0.1834
+       CLIP-ViT-B/16 (cont.) zs.  im2gps3k  continent    0.5465  0.4615  0.5942   0.5382
+       CLIP-ViT-B/16 (cont.) zs.  im2gps3k    country    0.4558  0.2394  0.3983   0.2863
+       CLIP-ViT-B/16 (cont.) zs.    yfcc4k  continent    0.4147  0.3403  0.4030   0.4216
+       CLIP-ViT-B/16 (cont.) zs.    yfcc4k    country    0.3810  0.1456  0.2616   0.1836
+       CLIP-ViT-L-14-336 (cont.)      k78k  continent    0.9426  0.9427  0.9425   0.9439
+       CLIP-ViT-L-14-336 (cont.)      k78k    country    0.6346  0.2956  0.3658   0.3461
+       CLIP-ViT-L-14-336 (cont.)    im2gps  continent    0.8608  0.7858  0.8363   0.7788
+       CLIP-ViT-L-14-336 (cont.)    im2gps    country    0.6709  0.5033  0.5960   0.4957
+       CLIP-ViT-L-14-336 (cont.)  im2gps2k  continent    0.7330  0.6449  0.6878   0.6529
+       CLIP-ViT-L-14-336 (cont.)  im2gps2k    country    0.4505  0.2369  0.3471   0.2357
+       CLIP-ViT-L-14-336 (cont.)  im2gps3k  continent    0.7928  0.6576  0.7568   0.6619
+       CLIP-ViT-L-14-336 (cont.)  im2gps3k    country    0.5045  0.3034  0.4439   0.3214
+       CLIP-ViT-L-14-336 (cont.)    yfcc4k  continent    0.6825  0.5061  0.5666   0.5111
+       CLIP-ViT-L-14-336 (cont.)    yfcc4k    country    0.4231  0.2173  0.3714   0.2166
+       CLIP-ViT-L-14-336 (comb.)      k78k  continent    0.9100  0.9096  0.9099   0.9123
+       CLIP-ViT-L-14-336 (comb.)      k78k    country    0.7942  0.4732  0.5639   0.4767
+       CLIP-ViT-L-14-336 (comb.)    im2gps  continent    0.8565  0.7924  0.8676   0.7693
+       CLIP-ViT-L-14-336 (comb.)    im2gps    country    0.7426  0.5663  0.6550   0.5538
+       CLIP-ViT-L-14-336 (comb.)  im2gps2k  continent    0.7300  0.6472  0.6989   0.6480
+       CLIP-ViT-L-14-336 (comb.)  im2gps2k    country    0.5180  0.2416  0.3215   0.2437
+       CLIP-ViT-L-14-336 (comb.)  im2gps3k  continent    0.7908  0.6689  0.7728   0.6584
+       CLIP-ViT-L-14-336 (comb.)  im2gps3k    country    0.5759  0.3251  0.4682   0.3296
+       CLIP-ViT-L-14-336 (comb.)    yfcc4k  continent    0.6049  0.5245  0.5822   0.5738
+       CLIP-ViT-L-14-336 (comb.)    yfcc4k    country    0.4888  0.2780  0.4238   0.2678
+CLIP-ViT-L-14-336 (cont.) + a.d.      k78k  continent    0.9536  0.9537  0.9535   0.9544
+CLIP-ViT-L-14-336 (cont.) + a.d.      k78k    country    0.6671  0.2943  0.3644   0.3484
+CLIP-ViT-L-14-336 (cont.) + a.d.    im2gps  continent    0.8987  0.8504  0.8893   0.8267
+CLIP-ViT-L-14-336 (cont.) + a.d.    im2gps    country    0.6962  0.5003  0.5770   0.4940
+CLIP-ViT-L-14-336 (cont.) + a.d.  im2gps2k  continent    0.7470  0.6521  0.6827   0.6662
+CLIP-ViT-L-14-336 (cont.) + a.d.  im2gps2k    country    0.4855  0.2394  0.3287   0.2417
+CLIP-ViT-L-14-336 (cont.) + a.d.  im2gps3k  continent    0.8098  0.6939  0.7643   0.6795
+CLIP-ViT-L-14-336 (cont.) + a.d.  im2gps3k    country    0.5472  0.3196  0.4724   0.3215
+CLIP-ViT-L-14-336 (cont.) + a.d.    yfcc4k  continent    0.7189  0.5325  0.5817   0.5393
+CLIP-ViT-L-14-336 (cont.) + a.d.    yfcc4k    country    0.4563  0.2249  0.3724   0.2170
+CLIP-ViT-L-14-336 (comb.) + a.d.      k78k  continent    0.8899  0.8881  0.8898   0.8976
+CLIP-ViT-L-14-336 (comb.) + a.d.      k78k    country    0.8051  0.4967  0.5854   0.5048
+CLIP-ViT-L-14-336 (comb.) + a.d.    im2gps  continent    0.8692  0.7840  0.8430   0.7658
+CLIP-ViT-L-14-336 (comb.) + a.d.    im2gps    country    0.7173  0.5183  0.5934   0.5094
+CLIP-ViT-L-14-336 (comb.) + a.d.  im2gps2k  continent    0.7500  0.6502  0.6865   0.6599
+CLIP-ViT-L-14-336 (comb.) + a.d.  im2gps2k    country    0.5050  0.2321  0.3209   0.2288
+CLIP-ViT-L-14-336 (comb.) + a.d.  im2gps3k  continent    0.7998  0.6531  0.7413   0.6696
+CLIP-ViT-L-14-336 (comb.) + a.d.  im2gps3k    country    0.5712  0.3235  0.4601   0.3288
+CLIP-ViT-L-14-336 (comb.) + a.d.    yfcc4k  continent    0.6510  0.5323  0.5350   0.5711
+CLIP-ViT-L-14-336 (comb.) + a.d.    yfcc4k    country    0.4755  0.2582  0.3922   0.2519
+   CLIP-ViT-L-14-336 (cont.) zs.      k78k  continent    0.7959  0.7827  0.7958   0.8120
+   CLIP-ViT-L-14-336 (cont.) zs.      k78k    country    0.5604  0.2972  0.3856   0.3487
+   CLIP-ViT-L-14-336 (cont.) zs.    im2gps  continent    0.7468  0.6719  0.7614   0.6917
+   CLIP-ViT-L-14-336 (cont.) zs.    im2gps    country    0.7046  0.5796  0.6664   0.5740
+   CLIP-ViT-L-14-336 (cont.) zs.  im2gps2k  continent    0.6455  0.5647  0.6484   0.5987
+   CLIP-ViT-L-14-336 (cont.) zs.  im2gps2k    country    0.4265  0.2593  0.3719   0.2692
+   CLIP-ViT-L-14-336 (cont.) zs.  im2gps3k  continent    0.6880  0.5527  0.6948   0.6010
+   CLIP-ViT-L-14-336 (cont.) zs.  im2gps3k    country    0.5202  0.3281  0.5078   0.3378
+   CLIP-ViT-L-14-336 (cont.) zs.    yfcc4k  continent    0.5331  0.4304  0.4812   0.4824
+   CLIP-ViT-L-14-336 (cont.) zs.    yfcc4k    country    0.3836  0.2456  0.3969   0.2494
+                ViT-T/16 scratch      k78k  continent    0.5721  0.5742  0.5720   0.5778
+                ViT-T/16 scratch    im2gps  continent    0.2532  0.1715  0.1935   0.1861
+                ViT-T/16 scratch  im2gps2k  continent    0.1970  0.1555  0.1911   0.1746
+                ViT-T/16 scratch  im2gps3k  continent    0.2289  0.1505  0.1772   0.1738
+                ViT-T/16 scratch    yfcc4k  continent    0.1825  0.1149  0.1685   0.1548
+                ViT-T/16 scratch      k78k    country    0.4652  0.2050  0.1924   0.2500
+                ViT-T/16 scratch    im2gps    country    0.0338  0.0033  0.0038   0.0040
+                ViT-T/16 scratch  im2gps2k    country    0.0695  0.0028  0.0054   0.0040
+                ViT-T/16 scratch  im2gps3k    country    0.0507  0.0032  0.0087   0.0032
+                ViT-T/16 scratch    yfcc4k    country    0.0657  0.0030  0.0062   0.0052
+                        ViT-T/16      k78k  continent    0.7976  0.7976  0.7975   0.7980
+                        ViT-T/16    im2gps  continent    0.2700  0.1903  0.2319   0.2124
+                        ViT-T/16  im2gps2k  continent    0.2400  0.1891  0.2235   0.2311
+                        ViT-T/16  im2gps3k  continent    0.2926  0.2043  0.2496   0.2273
+                        ViT-T/16    yfcc4k  continent    0.2240  0.1362  0.2062   0.1830
+                        ViT-T/16      k78k    country    0.6775  0.3097  0.2914   0.3780
+                        ViT-T/16    im2gps    country    0.0464  0.0047  0.0063   0.0061
+                        ViT-T/16  im2gps2k    country    0.0735  0.0062  0.0130   0.0088
+                        ViT-T/16  im2gps3k    country    0.0697  0.0162  0.0275   0.0221
+                        ViT-T/16    yfcc4k    country    0.0626  0.0048  0.0087   0.0081
+                        ViT-B/16      k78k  continent    0.8507  0.8509  0.8507   0.8513
+                        ViT-B/16    im2gps  continent    0.4304  0.3368  0.3799   0.3691
+                        ViT-B/16  im2gps2k  continent    0.3415  0.2732  0.3078   0.3318
+                        ViT-B/16  im2gps3k  continent    0.3917  0.2722  0.3147   0.3032
+                        ViT-B/16    yfcc4k  continent    0.3104  0.1896  0.2519   0.2396
+                        ViT-B/16      k78k    country    0.7450  0.4200  0.4009   0.4925
+                        ViT-B/16    im2gps    country    0.1266  0.0196  0.0307   0.0259
+                        ViT-B/16  im2gps2k    country    0.1205  0.0141  0.0218   0.0177
+                        ViT-B/16  im2gps3k    country    0.1158  0.0181  0.0273   0.0252
+                        ViT-B/16    yfcc4k    country    0.1254  0.0147  0.0188   0.0222

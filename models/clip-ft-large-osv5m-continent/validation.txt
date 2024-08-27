@@ -1,0 +1,4 @@
+openai/clip-vit-large-patch14-336 fine-tune
+{'BATCH_SIZE': 16, 'EPOCHS': 10, 'LEARNING_RATE': 1e-06, 'TARGET': 'continent'}
+Training Epoch 1:   0%|          | 0/11080 [00:00<?, ?it/s]
+Validation Epoch 1: 100%|██████████| 439/439 [04:14<00:00,  1.72it/s, Loss: 1.2986, Accuracy: 0.9503]
